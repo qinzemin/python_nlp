@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Home</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<style>
+		.mybutton {
+		color: #2F2F2F;
+		background: #FFC40A;
+		padding: 16px 36px;	
+		font-size: 18px;
+		line-height: 20px;
+		border: 2px solid #fff;
+		border-radius: 0;
+		font-family: 'Raleway';
+		font-weight: 600;
+		transition: background 0.3s, border-color 0.3s;
+		margin-top:20px;
+		}
+		.mybutton:hover{
+		color: #2F2F2F;
+		background-color: #FFC40A;
+		border: 2px solid #000;
+		}
+		</style>
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="/static/images/favicon.ico">
+ 
+		<link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet"> 
+		<link href="/static/fonts/font-awesome/css/font-awesome.css" rel="stylesheet"> 
+		<link href="/static/css/animations.css" rel="stylesheet"> 
+		<link href="/static/css/style.css" rel="stylesheet"> 
+	</head>
+
+	<body class="no-trans">
+		<!-- scrollToTop --> 
+		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+		<!-- header start --> 
+		<header class="header fixed clearfix navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<!-- header-left start --> 
+						<div class="header-left">
+							<!-- logo -->
+							<div class="logo smooth-scroll">
+								<a href="#banner"><img id="logo" src="/static/images/logo.png" alt="Worthy"></a>
+							</div>
+							<!-- name-and-slogan -->
+							<div class="logo-section smooth-scroll">
+								<div class="brand"><a href="#banner">NLP</a></div>								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+		<!-- banner start --> 
+		<div id="banner" class="banner" style="background-image:url(../static/images/banner.jpg)">
+			<div >
+            </div>
+			<div class="banner-caption">
+				<div class="container">
+					<div class="row">					 
+						<div class="caption-data" style="margin-top: 0px; opacity: 1;" data-animation-effect="fadeIn">
+								<h1 style="font-size:58px">司法文本分析</h1>
+								<h3 class="padding-top30">Yes - Start, analyse your cases online.</h3>
+								<div class="padding-top60 contact-form" style="line-height:200px">
+                                <form style="line-height:300px" method="post" enctype="multipart/form-data">
+        							<div class="btn cta-button">{% csrf_token %}{{ form }}
+       								</div>
+							          <input class="mybutton" type="submit" value="Upload"/>
+    							</form>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- banner end -->
+		<section class="hero-caption secPadding">
+
+		<div class="container">
+	
+	<div class="row " style="margin-top: 0px;">
+				<div class="col-sm-12">
+	<h2>Together Let's Start -<strong>NLP</strong>- with future perspective.</h2>
+<p style="font-size:16px">Using jiaba-cut sqlite3 djnago</p>
+<p style="font-size:16px">Produced by Qin Zemin Dalian Nov.2016 </p>
+
+ 	</div>
+	
+			</div>
+
+		</div>
+	
+</section>
+		<!-- JavaScript --> 
+		<script type="text/javascript" src="/static/plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="/static/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/static/plugins/modernizr.js"></script>
+		<script type="text/javascript" src="/static/plugins/isotope/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="/static/plugins/jquery.backstretch.min.js"></script>
+		<script type="text/javascript" src="/static/plugins/jquery.appear.js"></script>
+		<!-- Custom Scripts -->
+		<script type="text/javascript" src="/static/js/custom.js"></script>
+
+	</body>
+</html>
